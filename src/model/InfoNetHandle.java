@@ -111,11 +111,11 @@ public  class InfoNetHandle implements Model {
 	
 	/*---------------GETTERS_TOP----------------*/
 
-	public String getUserName() {
+	protected String getUserName() {
 		return username;
 	}
 
-	public String getPassword() {
+	protected String getPassword() {
 		return password;
 	}
 
